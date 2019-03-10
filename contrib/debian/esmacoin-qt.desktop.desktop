@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Esmacoin
+Comment=Esmacoin P2P Cryptocurrency
+Exec=esmacoin-qt %u
+Terminal=false
+Type=Application
+Icon=esmacoin128
+MimeType=x-scheme-handler/esmacoin;
+Categories=Office;Finance;
+Name[en_US]=esmacoin-qt.desktop

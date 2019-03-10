@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/esmacoin_bg.qm</file>
+        <file alias="de">locale/esmacoin_de.qm</file>
+        <file alias="en">locale/esmacoin_en.qm</file>
+        <file alias="es">locale/esmacoin_es.qm</file>
+        <file alias="fi">locale/esmacoin_fi.qm</file>
+        <file alias="fr">locale/esmacoin_fr.qm</file>
+        <file alias="it">locale/esmacoin_it.qm</file>
+        <file alias="ja">locale/esmacoin_ja.qm</file>
+        <file alias="pl">locale/esmacoin_pl.qm</file>
+        <file alias="pt">locale/esmacoin_pt.qm</file>
+        <file alias="ru">locale/esmacoin_ru.qm</file>
+        <file alias="sk">locale/esmacoin_sk.qm</file>
+        <file alias="sv">locale/esmacoin_sv.qm</file>
+        <file alias="vi">locale/esmacoin_vi.qm</file>
+        <file alias="zh_CN">locale/esmacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/esmacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/esmacoin-qt usr/bin
+share/pixmaps/esmacoin32.xpm usr/share/pixmaps
+share/pixmaps/esmacoin16.xpm usr/share/pixmaps
+share/pixmaps/esmacoin128.png usr/share/pixmaps
+debian/esmacoin-qt.desktop usr/share/applications
+debian/esmacoin-qt.protocol usr/share/kde4/services/
