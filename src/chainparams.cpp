@@ -128,8 +128,9 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000e49c1992ddc0f9e475e690b70de479698ecafe5a56662fb4dc0f7ac0d5f"));
         assert(genesis.hashMerkleRoot     == uint256S("0x58556945d366e51a7697e16f1f696e3f19be88cf34e51380729e777f03b800b6"));
 
-        vSeeds.push_back(CDNSSeedData("esmacoin.me", "15.164.14.155"));
-        
+        vSeeds.push_back(CDNSSeedData("esma1", "15.164.14.155"));
+		vSeeds.push_back(CDNSSeedData("esma2", "185.204.3.23"));
+		vSeeds.push_back(CDNSSeedData("esma3", "18.217.164.96"));
 
         //vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         //vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -269,7 +270,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x00000fd8e100ac8d58cb8996012ece2da984740c6318c57d11ad68bdb86a4eb8")),
+            (0, uint256S("0xc6321a895d2f2b969d288bb8a0bc14f08da80045850fa08842f9affb64fcfe14")),
             	1551777219, // * UNIX timestamp of last checkpoint block
             	1,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
@@ -354,10 +355,10 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x000003e3fac725db9fcc0bde9f48ce7054389e92e31a0fd8e419ad818f441d23")),
-            //0,
-            //0,
-            //0
+            ( 0, uint256S("0x5c741b2fddda96829dfdca4a744113a68e2efd67dc7e10f677eb34cb09d0d2b8")),
+            1551777472, //0,
+            1, //0,
+            0 //0
         };
         // Regtest Esmacoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
