@@ -1,5 +1,7 @@
 ![esmacoin logo](https://github.com/alik918/esmacoin/blob/master/src/qt/res/images/trad/splash.png)
 
+Block explorer http://185.204.3.23:3001
+
 What is Esmacoin?
 ----------------
 
