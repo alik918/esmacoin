@@ -227,8 +227,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/esmacoin-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING INSTALL \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
-	build-aux/missing
+	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -298,7 +297,7 @@ CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
 CLIENT_VERSION_MINOR = 6
-CLIENT_VERSION_REVISION = 4
+CLIENT_VERSION_REVISION = 5
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2019
 CPP = gcc -E
@@ -384,10 +383,10 @@ OTOOL64 =
 PACKAGE = esmacoin
 PACKAGE_BUGREPORT = https://github.com/alik918/esmacoin/issues
 PACKAGE_NAME = Esmacoin
-PACKAGE_STRING = Esmacoin 1.6.4
+PACKAGE_STRING = Esmacoin 1.6.5
 PACKAGE_TARNAME = esmacoin
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.6.4
+PACKAGE_VERSION = 1.6.5
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
@@ -438,7 +437,7 @@ TESTDEFS =  -DBOOST_TEST_DYN_LINK
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.6.4
+VERSION = 1.6.5
 WINDOWS_BITS = 
 WINDRES = 
 X11XCB_CFLAGS = 
